@@ -76,7 +76,7 @@ html, body {
 body {
     background: #111111;
     /*font-family: "lora-regular", serif;*/
-    font-family: Nyala, serif;
+    font-family:"nyala";
     font-size: 1.7rem;
     font-style: normal;
     font-weight: normal;
@@ -112,7 +112,7 @@ a:hover, a:active {
  * ------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6, 
 .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: "montserrat-medium", sans-serif;
+    font-family: "nyala";
     color: #000000;
     font-style: normal;
     font-weight: normal;
@@ -187,7 +187,7 @@ p img {
 }
 
 p.lead {
-    font-family: "montserrat-regular", sans-serif;
+    font-family: "nyala";
     font-size: 2rem;
     font-weight: 300;
     line-height: 1.8;
@@ -209,11 +209,11 @@ em, i, strong, b {
 }
 
 em, i {
-    font-family: "lora-italic", serif;
+    font-family: "nyala";
 }
 
 strong, b {
-    font-family: "lora-bold", serif;
+    font-family: "nyala";
 }
 
 small {
@@ -233,14 +233,14 @@ blockquote:before {
     line-height: 0px;
     margin: 0;
     color: rgba(0, 0, 0, 0.25);
-    font-family: arial, sans-serif;
+    font-family:"nyala";
     position: absolute;
     top: 3.6rem;
     left: 0;
 }
 
 blockquote p {
-    font-family: "montserrat-regular", sans-serif;
+    font-family:"nyala";
     padding: 0;
     font-size: 2.1rem;
     line-height: 1.857;
@@ -249,7 +249,7 @@ blockquote p {
 
 blockquote cite {
     display: block;
-    font-family: "montserrat-regular", sans-serif;
+    font-family: "nyala";
     font-size: 1.4rem;
     font-style: normal;
     line-height: 1.5;
@@ -265,7 +265,7 @@ blockquote cite a, blockquote cite a:visited {
 }
 
 abbr {
-    font-family: "lora-bold", serif;
+    font-family: "nyala";
     font-variant: small-caps;
     text-transform: lowercase;
     letter-spacing: .05rem;
@@ -273,7 +273,7 @@ abbr {
 }
 
 var, kbd, samp, code, pre {
-    font-family: Consolas, "Andale Mono", Courier, "Courier New", monospace;
+    font-family: "nyala";
 }
 
 pre {
@@ -426,7 +426,7 @@ table {
     border-width: 0;
     width: 100%;
     max-width: 100%;
-    font-family: "lora-regular", serif;
+    font-family: "nyala";
 }
 
 th, td {
@@ -437,7 +437,7 @@ th, td {
 
 th {
     color: #000000;
-    font-family: "montserrat-bold", sans-serif;
+    font-family: "nyala";
 }
 
 td {
@@ -623,7 +623,7 @@ select {
     border: 0;
     outline: none;
     color: #333333;
-    font-family: "montserrat-light", sans-serif;
+    font-family: "nyala";
     font-size: 1.4rem;
     line-height: 3rem;
     max-width: 100%;
@@ -707,7 +707,7 @@ select:focus {
 }
 
 label, legend {
-    font-family: "montserrat-regular", sans-serif;
+    font-family: "nyala";
     font-size: 1.4rem;
     font-weight: bold;
     margin-bottom: .9rem;
@@ -723,7 +723,7 @@ input[type="checkbox"], input[type="radio"] {
 label > .label-text {
     display: inline-block;
     margin-left: 1rem;
-    font-family: "montserrat-regular", sans-serif;
+    font-family: "nyala";
     font-weight: normal;
     line-height: inherit;
 }
@@ -789,7 +789,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
     display: inline-block;
-    font-family: "montserrat-medium", sans-serif;
+    font-family: "nyala";
     font-size: 1.2rem;
     text-transform: uppercase;
     letter-spacing: .3rem;
@@ -908,7 +908,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     position: relative;
     margin-bottom: 3rem;
     border-radius: 3px;
-    font-family: "montserrat-regular", sans-serif;
+    font-family: "nyala";
     font-size: 1.5rem;
     line-height: 1.6;
 }
@@ -957,7 +957,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     margin: 0;
     padding: 1.5rem .6rem 0 0;
     font-size: 8.4rem;
-    font-family: "montserrat-regular", sans-serif;
+    font-family: "nyala";
     font-weight: bold;
     line-height: 6rem;
     text-indent: 0;
@@ -1036,7 +1036,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     height: 1em;
     position: absolute;
     font-size: 10rem;
-    font-family: Arial, Sans-Serif;
+    font-family: "nyala";
     color: rgba(0, 0, 0, 0.25);
 }
 
@@ -1095,7 +1095,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .stats-tabs li a {
     display: inline-block;
     font-size: 2.5rem;
-    font-family: "montserrat-regular", sans-serif;
+    font-family: "nyala";
     font-weight: bold;
     border: none;
     color: #000000;
@@ -1109,7 +1109,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     display: block;
     margin: .6rem 0 0 0;
     font-size: 1.4rem;
-    font-family: "montserrat-regular", sans-serif;
+    font-family: "nyala";
     color: #828282;
 }
 
@@ -1135,8 +1135,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     position: absolute;
     left: 0;
     top: -3rem;
-    font-family: "montserrat-bold", sans-serif;
-    color: #000000;
+    font-family: "nyala";
+    color: #8f3939;
     text-transform: uppercase;
     letter-spacing: .2rem;
     font-size: 1.4rem;
@@ -1154,7 +1154,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     right: 0;
     top: -3.6rem;
     display: block;
-    font-family: "montserrat-regular", sans-serif;
+    font-family: "nyala";
     color: #FFFFFF;
     font-size: 1.1rem;
     line-height: 1;
@@ -1214,7 +1214,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ## display headings
  * ------------------------------------------------------------------- */
 .display-1 {
-    font-family: "montserrat-medium", sans-serif;
+    font-family:"nyala";
     font-size: 7.8rem;
     line-height: 1.25;
     color: #000000;
@@ -1226,7 +1226,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .display-2 {
-    font-family: "montserrat-medium", sans-serif;
+    font-family: "nyala";
     font-size: 3.2rem;
     line-height: 1.255;
     color: #000000;
@@ -1242,7 +1242,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .subhead {
-    font-family: "montserrat-bold", sans-serif;
+    font-family: "nyala";
     font-size: 1.7rem;
     line-height: 1.333;
     text-transform: uppercase;
@@ -1474,7 +1474,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .header-nav {
     background: #0C0C0C;
     color: rgba(255, 255, 255, 0.25);
-    font-family: "montserrat-light", sans-serif;
+    font-family: "nyala";
     font-size: 1.3rem;
     line-height: 1.846;
     padding: 3.6rem 3rem 3.6rem 3.6rem;
@@ -1507,7 +1507,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .header-nav h3 {
-    font-family: "montserrat-semibold", sans-serif;
+    font-family: "nyala";
     font-size: 11px;
     line-height: 1.5;
     text-transform: uppercase;
@@ -1529,7 +1529,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .header-nav__list {
-    font-family: "montserrat-regular", sans-serif;
+    font-family: "nyala";
     font-size: 1.8rem;
     margin: 3.6rem 0 3rem 0;
     padding: 0 0 1.8rem 0;
@@ -1648,7 +1648,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     height: 42px;
     width: 42px;
     line-height: 42px;
-    font-family: "montserrat-medium", sans-serif;
+    font-family: "nyala";
     font-size: 1.3rem;
     text-transform: uppercase;
     letter-spacing: .3rem;
@@ -1792,7 +1792,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content h3 {
-    font-family: "montserrat-medium", sans-serif;
+    font-family: "nyala";
     font-size: 1.6rem;
     color: rgba(255, 255, 255, 0.5);
     text-transform: uppercase;
@@ -1804,7 +1804,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content h1 {
-    font-family: "montserrat-medium", sans-serif;
+    font-family: "nyala";
     font-size: 6.3rem;
     line-height: 1.333;
     margin-top: 0;
@@ -1814,6 +1814,10 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .home-content__main {
     padding-top: 24rem;
     position: relative;
+}
+.home-content__main h2{
+    color: white;
+    margin-left: 422px;
 }
 
 .home-content__buttons {
@@ -1848,7 +1852,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content__scroll a {
-    font-family: "montserrat-semibold", sans-serif;
+    font-family: "nyala";
     font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: .3rem;
@@ -1890,6 +1894,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     right: 7.2rem;
     bottom: 0;
 }
+
 
 
 /* ------------------------------------------------------------------- 
@@ -2171,11 +2176,19 @@ html.no-csstransitions .home-content__main {
     .home-social {
         display: none;
     }
+    .home-content__main h2{
+        /*text-align: center;*/
+        margin: 1.5rem 1.5rem 0 0;
+    }
 }
 
 @media only screen and (max-width: 450px) {
     .home-content h1 {
         font-size: 3.3rem;
+    }
+    .home-content__main h2{
+        /*text-align: center;*/
+        margin: 1.5rem 1.5rem 0 0;
     }
 }
 
@@ -2190,6 +2203,10 @@ html.no-csstransitions .home-content__main {
         padding-top: 16.2rem;
         width: auto;
     }
+    .home-content__main h2{
+        /*text-align: center;*/
+        margin: 1.5rem 1.5rem 0 0;
+    }
 }
 
 
@@ -2199,12 +2216,16 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-about {
-    padding-top: 16.2rem;
-    padding-bottom: 9rem;
+    padding-top: 4.2rem;
+    padding-bottom: 4rem;
     /*background-color: #39b54a;*/
 	background-color: #050505;
     color: #010507;
     position: relative;
+}
+.s-about table{
+    color:thistle;
+    font-size: xx-large;
 }
 
 .s-about .section-header.has-bottom-sep::before {
@@ -2216,6 +2237,10 @@ html.no-csstransitions .home-content__main {
     line-height: 1.75;
     text-align: center;
     max-width: 1024px;
+}
+.about-desc p{
+    color:thistle; 
+    font-size:25px;
 }
 
 
@@ -2240,7 +2265,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .stats__count {
-    font-family: "montserrat-bold", sans-serif;
+    font-family: "nyala";
     font-size: 8.4rem;
     line-height: 1;
     color: #FFFFFF;
@@ -2251,7 +2276,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .stats h5 {
-    font-family: "montserrat-semibold", sans-serif;
+    font-family: "nyala";
     margin-top: 1.8rem;
     color: #000000;
     font-size: 1.8rem;
@@ -2308,6 +2333,11 @@ html.no-csstransitions .home-content__main {
     .stats h5 {
         margin-top: 1.2rem;
     }
+    .about-desc p{
+        color:thistle; 
+        font-size:20px;
+    }
+    
 }
 
 @media only screen and (max-width: 700px) {
@@ -2352,6 +2382,16 @@ html.no-csstransitions .home-content__main {
     .about__line {
         height: 7.2rem;
     }
+    .s-about table{
+        width: 480px;
+        color:thistle;
+        font-size:medium;
+    }
+    .about-desc p{
+        color:thistle; 
+        font-size:18px;
+    }
+    
 }
 
 @media only screen and (max-width: 400px) {
@@ -2361,6 +2401,16 @@ html.no-csstransitions .home-content__main {
     .stats__count {
         font-size: 7.8rem;
     }
+    .s-about table{
+        width: 380px;
+        color:thistle;
+        font-size:medium;
+    }
+    .about-desc p{
+        color:thistle; 
+        font-size:16px;
+    }
+    
 }
 
 
@@ -2370,11 +2420,17 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-services {
-    padding-top: 16.2rem;
-    padding-bottom: 13.2rem;
+    padding-top: 8.2rem;
+    padding-bottom: 10.2rem;
     background-color: #FFFFFF;
     color: #757575;
     position: relative;
+}
+.s-services table{
+    margin:1em auto;
+    font-family: "nyala";
+    font-size: 20px;
+    padding-top: 2.2rem;
 }
 
 
@@ -2475,6 +2531,17 @@ html.no-csstransitions .home-content__main {
     .services-list h3 {
         font-size: 2.5rem;
     }
+    .s-services table{
+        font-family: "nyala";
+        font-size: 18px;  
+        text-align: left;
+        padding-left: 2px;
+        padding-right: 2px;
+        width: 480px;
+    }
+    .s-services table tr td{
+        padding-top: 0%;
+    }
 }
 
 @media only screen and (max-width: 400px) {
@@ -2484,6 +2551,17 @@ html.no-csstransitions .home-content__main {
     }
     .services-list h3 {
         font-size: 2.5rem;
+    }
+    .s-services table{
+        font-family: "nyala";
+        font-size: 18px;
+        text-align: left;
+        padding-left: 2px;
+        padding-right: 2px;
+        width: 380px;
+    }
+    .s-services table tr td{
+        padding-top: 0%;
     }
 }
 
@@ -2562,7 +2640,7 @@ html.no-csstransitions .home-content__main {
 
 .item-folio__thumb a::after {
     content: "+";
-    font-family: georgia, serif;
+    font-family: "nyala";
     font-size: 2.7rem;
     display: block;
     height: 30px;
@@ -2601,7 +2679,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .item-folio__title {
-    font-family: "montserrat-semibold", sans-serif;
+    font-family:"nyala";
     font-size: 1.4rem;
     line-height: 1.286;
     color: #FFFFFF;
@@ -2612,7 +2690,7 @@ html.no-csstransitions .home-content__main {
 
 .item-folio__cat {
     color: rgba(255, 255, 255, 0.5);
-    font-family: "montserrat-light", sans-serif;
+    font-family: "nyala";
     font-size: 1.4rem;
     line-height: 1.714;
     margin-bottom: 0;
@@ -2732,8 +2810,8 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-clients {
-    padding-top: 16.2rem;
-    padding-bottom: 16.8rem;
+    padding-top: 8.2rem;
+    padding-bottom: 8.8rem;
     background-color: #e6e6e6;
     color: #757575;
     position: relative;
@@ -2793,7 +2871,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .clients-testimonials .testimonials p {
-    font-family: "lora-regular", serif;
+    font-family: "nyala";
     font-size: 3rem;
     line-height: 1.8;
     color: #555555;
@@ -2817,12 +2895,12 @@ html.no-csstransitions .home-content__main {
 }
 
 .clients-testimonials .testimonials__name {
-    font-family: "montserrat-semibold", sans-serif;
+    font-family: "nyala";
     color: #000000;
 }
 
 .clients-testimonials .testimonials__pos {
-    font-family: "montserrat-light", sans-serif;
+    font-family: "nyala";
     font-size: 1.4rem;
 }
 
@@ -2965,7 +3043,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .s-contact .form-field label {
-    font-family: "montserrat-light", sans-serif;
+    font-family: "nyala";
     font-size: 1rem;
     line-height: 2.4rem;
     position: absolute;
@@ -3007,7 +3085,7 @@ html.no-csstransitions .home-content__main {
     color: rgba(255, 255, 255, 0.4);
     padding-top: 6rem;
     padding-bottom: 6rem;
-    font-family: "montserrat-light", sans-serif;
+    font-family: "nyala";
     font-size: 1.5rem;
     line-height: 2;
     position: relative;
@@ -3185,7 +3263,7 @@ html.no-csstransitions .home-content__main {
 
 .submit-loader .text-loader {
     display: none;
-    font-family: "montserrat-regular", sans-serif;
+    font-family: "nyala";
     font-size: 1.3rem;
     font-weight: bold;
     line-height: 1.846;
@@ -3334,7 +3412,7 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 footer {
     padding: 9rem 0 6rem;
-    font-family: "montserrat-light", sans-serif;
+    font-family: "nyala";
     font-size: 15px;
     line-height: 2;
     text-align: center;
@@ -3453,7 +3531,7 @@ footer .row {
 
 .footer-subscribe #mc-form label {
     color: #FFFFFF;
-    font-family: "montserrat-regular", sans-serif;
+    font-family: "nyala";
     font-size: 1.3rem;
     padding: 0 2rem;
 }

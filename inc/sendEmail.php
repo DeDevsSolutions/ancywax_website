@@ -1,7 +1,7 @@
 ﻿<?php
 
 // Replace this with your own email address
-$siteOwnersEmail = 'sundaydeogratias8@gmail.com';
+$siteOwnersEmail = 'sales@ancywax.com';
 
 
 if($_POST) {
@@ -20,8 +20,8 @@ if($_POST) {
         $error['email'] = "Please enter a valid email address.";
     }
     // Check Message
-    if (strlen($contact_message) < 15) {
-        $error['message'] = "Please enter your message. It should have at least 15 characters.";
+    if (strlen($contact_message) < 0) {
+        $error['message'] = "Please enter your message. It should have at least 1 characters.";
     }
     // Subject
     if ($subject == '') { $subject = "Contact Form Submission"; }
