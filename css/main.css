@@ -1817,7 +1817,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 .home-content__main h2{
     color: white;
-    margin-left: 422px;
+    margin-left: 210px;
 }
 
 .home-content__buttons {
@@ -1833,6 +1833,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     letter-spacing: .25rem;
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
+    font-size: larger;
 }
 
 .home-content__buttons .btn:last-child {
@@ -2172,6 +2173,7 @@ html.no-csstransitions .home-content__main {
     .home-content__buttons .btn {
         width: auto;
         margin: 1.5rem 0 0 0;
+        font-size: large;
     }
     .home-social {
         display: none;
@@ -2179,6 +2181,7 @@ html.no-csstransitions .home-content__main {
     .home-content__main h2{
         /*text-align: center;*/
         margin: 1.5rem 1.5rem 0 0;
+        font-size: large;
     }
 }
 
@@ -2189,6 +2192,10 @@ html.no-csstransitions .home-content__main {
     .home-content__main h2{
         /*text-align: center;*/
         margin: 1.5rem 1.5rem 0 0;
+        font-size: large;
+    }
+    .home-content__buttons .btn {
+        font-size: large;
     }
 }
 
@@ -2206,6 +2213,10 @@ html.no-csstransitions .home-content__main {
     .home-content__main h2{
         /*text-align: center;*/
         margin: 1.5rem 1.5rem 0 0;
+        font-size:large;
+    }
+    .home-content__buttons .btn {
+        font-size: large;
     }
 }
 
